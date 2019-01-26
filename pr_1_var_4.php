@@ -43,23 +43,23 @@ class MailAdress{
 
 
   public function __setIndex($index){
-    $this->index = '344065';
+    $this->index = $index;
   }
 
   public function __setContry($country){
-    $this->country = 'Russia';
+    $this->country = $country;
   }
 
   public function __setCity($city){
-    $this->city = 'Rostov-on-Don';
+    $this->city = $city;
   }
 
   public function __setStreet($street){
-    $this->street = 'Lenina';
+    $this->street = $street;
   }
 
   public function __setHouse($house){
-    $this->house = '666';
+    $this->house = $house;
   }
   public function show(){
     echo 'Индекс: '.$this->index.'<br/> Страна:'.$this->country.'<br/> Город: '.$this->city.'<br/> Улица: '.$this->street.'<br/> Дом: '.$this->house.'<br />';
